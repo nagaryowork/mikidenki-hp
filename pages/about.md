@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 会社概要
+permalink: /about/
 ---
 
 <section class="about">

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 採用情報
+permalink: /recruit/
 ---
 
 <section class="recruit">

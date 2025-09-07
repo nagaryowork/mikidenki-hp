@@ -10,12 +10,10 @@ url: ""            # local 開発用
 # --------------------------------
 # ディレクトリ設定
 # --------------------------------
-source: ./pages          # Markdown ファイルを置くディレクトリ
-layouts_dir: _layouts     # レイアウトディレクトリ
-includes_dir: _includes   # インクルードディレクトリ
+source: ./           # Markdown ファイルを置くディレクトリ
 sass:
-  sass_dir: assets/css/scss   # SCSS の格納ディレクトリ
-  style: compressed           # 出力 CSS の形式
+  sass_dir: assets/css    # SCSS の格納ディレクトリ
+  style: compressed       # 出力 CSS の形式
 
 # --------------------------------
 # パーマリンク

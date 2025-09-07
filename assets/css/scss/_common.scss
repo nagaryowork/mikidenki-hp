@@ -1,0 +1,35 @@
+body {
+  font-family: $font-main;
+  color: $dark-gray;
+  margin: 0;
+  background-color: $light-gray;
+}
+
+header, footer {
+  background-color: $primary-blue;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: $primary-blue;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}

@@ -1,0 +1,84 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.index section {
+  padding: 2rem;
+  text-align: center;
+}
+.index section h2 {
+  margin-bottom: 1rem;
+}
+.index section p {
+  margin-bottom: 1.5rem;
+}
+
+.about {
+  padding: 2rem;
+}
+
+.recruit {
+  padding: 2rem;
+}
+.recruit .job-list {
+  list-style: none;
+  padding: 0;
+}
+.recruit .job-list li {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.contact {
+  padding: 2rem;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.contact form input, .contact form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact form input[type=submit] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}

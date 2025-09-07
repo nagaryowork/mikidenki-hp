@@ -28,20 +28,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout # リポジトリをチェックアウトしてローカルにコピー
+      - name: Checkout # リポジトリのコードをチェックアウト
         uses: actions/checkout@v4
 
-      - name: Setup Pages # GitHub Pages 用に環境をセットアップ
-        uses: actions/configure-pages@v5
-
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
+      - name: Setup Ruby # Ruby 3.4 環境をセットアップし、Bundler キャッシュを有効化
+        uses: ruby/setup-ruby@v1
         with:
-          source: ./           # Jekyll ソースディレクトリ
-          destination: ./_site # ビルド成果物の出力先
+          ruby-version: '3.4' # ローカルと同じバージョンにする
+          bundler-cache: true
 
-      - name: Upload artifact  # ビルド成果物を次の deploy ジョブに渡す
+      - name: Install dependencies # Gemfile の内容を元に Jekyll とプラグインをインストール
+        run: bundle install
+
+      - name: Build with Jekyll # Jekyll サイトをビルドして _site に出力
+        run: bundle exec jekyll build
+
+      - name: Upload artifact # GitHub Pages にデプロイするために _site をアップロード
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
 
   # ========================================
   # 2. Deploy Job: GitHub Pages にデプロイ

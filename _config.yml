@@ -3,13 +3,12 @@
 # --------------------------------
 title: 電気工事会社HP
 description: 電気工事士採用募集用サイト
-baseurl: ""        # サブディレクトリで公開する場合は /リポジトリ名
-url: ""            # GitHub Pages URL
+baseurl: ""
+url: "https://nagaryowork.github.io/"
 
 # --------------------------------
 # ディレクトリ設定
 # --------------------------------
-source: ./                # Markdown ファイルを置くディレクトリ
 sass:
   sass_dir: assets/css    # SCSS の格納ディレクトリ
   style: compressed       # 出力 CSS の形式
@@ -29,16 +28,6 @@ kramdown:
   syntax_highlighter: rouge
 
 # --------------------------------
-# デフォルトレイアウト設定
-# --------------------------------
-defaults:
-  - scope:
-      path: "pages"
-      type: "pages"
-    values:
-      layout: default
-
-# --------------------------------
 # その他設定
 # --------------------------------
 exclude:
@@ -47,9 +36,3 @@ exclude:
   - node_modules
   - vendor
   - README.md
-
-# --------------------------------
-# GitHub Pages 用
-# --------------------------------
-future: true           # 日付指定された投稿も公開
-incremental: false     # ビルド高速化を無効化（安全策）

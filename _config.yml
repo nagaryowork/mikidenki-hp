@@ -4,8 +4,7 @@
 title: 電気工事会社HP
 description: 電気工事士採用募集用サイト
 baseurl: ""        # サブディレクトリで公開する場合は /リポジトリ名
-#url: ""           # local 開発用
-url: "https://nagaryowork.github.io"  # GitHub Pages URL
+url: ""            # GitHub Pages URL
 
 # --------------------------------
 # ディレクトリ設定

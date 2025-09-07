@@ -37,7 +37,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./pages      # Jekyll ソースディレクトリ
+          source: ./           # Jekyll ソースディレクトリ
           destination: ./_site # ビルド成果物の出力先
 
       - name: Upload artifact  # ビルド成果物を次の deploy ジョブに渡す

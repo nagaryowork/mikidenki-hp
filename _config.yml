@@ -3,8 +3,8 @@
 # --------------------------------
 title: 電気工事会社HP
 description: 電気工事士採用募集用サイト
-baseurl: ""
-url: "https://nagaryowork.github.io/"
+baseurl: "/mikidenki-hp" # サイトのサブパス（例: /blog）
+url: "https://nagaryowork.github.io" # サイトのベースURL
 
 # --------------------------------
 # ディレクトリ設定

@@ -3,11 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }} | 電気工事会社</title>
+    <title>三木電機 | {{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   </head>
   <body>
     {% include header.html %}
+
+    <!-- TOPページ以外のページにだけ挿入 -->
+    {% unless page.url == '/' %}<div class="header-spacer"></div>{% endunless %}
 
     <main>{{ content }}</main>
 
@@ -15,5 +18,6 @@
 
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/components.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/slider.js' | relative_url }}"></script>
   </body>
 </html>

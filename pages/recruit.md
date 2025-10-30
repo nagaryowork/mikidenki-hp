@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 採用情報
+title: 応募・エントリー
 permalink: /recruit/
 ---
 
@@ -20,4 +20,11 @@ permalink: /recruit/
       <p>資格：未経験可</p>
     </li>
   </ul>
+  <h2>応募・エントリー</h2>
+  <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+    <label>お名前：<input type="text" name="name" required></label><br>
+    <label>メールアドレス：<input type="email" name="email" required></label><br>
+    <label>内容：<textarea name="message" required></textarea></label><br>
+    <input type="submit" value="送信">
+  </form>
 </section>

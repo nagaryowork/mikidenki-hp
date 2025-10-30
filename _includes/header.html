@@ -1,12 +1,12 @@
-<header>
+<header class="{% if page.url == '/' %}fixed-header{% endif %}">
   <h1>電気工事会社</h1>
-  <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="会社ロゴ" />
+  <!-- <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="会社ロゴ" /> -->
   <nav>
     <ul>
-      <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
-      <li><a href="{{ '/about/' | relative_url }}">会社概要</a></li>
-      <li><a href="{{ '/recruit/' | relative_url }}">採用情報</a></li>
-      <li><a href="{{ '/contact/' | relative_url }}">お問い合わせ</a></li>
+      <li><a href="{{ '/' | relative_url }}">TOP</a></li>
+      <li><a href="{{ '/about/' | relative_url }}">会社について</a></li>
+      <li><a href="{{ '/work/' | relative_url }}">現場・作業例</a></li>
+      <li><a href="{{ '/recruit/' | relative_url }}">応募・エントリー</a></li>
     </ul>
   </nav>
 </header>

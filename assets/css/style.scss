@@ -3,10 +3,17 @@
 
 // 変数と共通スタイルを先に読み込み
 @import 'variables';
-@import 'common';
+@import "header";
+@import "main";
+@import "footer";
 
 // ページごとのスタイル
 @import 'pages/index';
 @import 'pages/about';
 @import 'pages/recruit';
-@import 'pages/contact';
+@import 'pages/work';
+
+// 共通スタイル
+.header-spacer {
+  height: $header-height; // header の高さと揃える
+}

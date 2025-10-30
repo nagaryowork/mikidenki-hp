@@ -1,0 +1,66 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: $header-height;
+  width: 100%;
+  background-color: $primary-color;
+  color: white;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+
+  &.fixed-header {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    nav ul li:last-child a {
+      background-color: $primary-color;
+      color: white;
+    }
+
+    // fixed-header の場合のみスクロールで背景色変更
+    &.scrolled {
+      background-color: $primary-color;
+
+      nav ul li:last-child a {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+
+  img {
+    height: 50px;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      margin-right: 4rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      li {
+        &:last-child a {
+          display: inline-block;
+          padding: 0.5rem 1rem;
+          background-color: white;
+          transition: background-color 0.3s ease;
+          color: black;
+          border-radius: 5px;
+          text-decoration: none;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

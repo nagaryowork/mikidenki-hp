@@ -34,11 +34,13 @@ jobs:
       - name: Setup Ruby # Ruby 3.4 環境をセットアップし、Bundler キャッシュを有効化
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.4' # ローカルと同じバージョンにする
+          ruby-version: '3.3' # ローカルと同じバージョンにする
           bundler-cache: true
 
       - name: Install dependencies # Gemfile の内容を元に Jekyll とプラグインをインストール
-        run: bundle install
+        run: |
+          gem install bundler
+          bundle install
 
       - name: Build with Jekyll # Jekyll サイトをビルドして _site に出力
         run: bundle exec jekyll build

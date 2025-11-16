@@ -35,7 +35,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3' # ローカルと同じバージョンにする
-          bundler-cache: true
+          bundler-cache: false
 
       - name: Install dependencies # Gemfile の内容を元に Jekyll とプラグインをインストール
         run: |

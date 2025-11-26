@@ -25,7 +25,6 @@ header {
     // fixed-header の場合のみスクロールで背景色変更
     &.scrolled {
       background-color: $primary-color;
-
       nav ul li:last-child a {
         background-color: white;
         color: black;
@@ -59,6 +58,7 @@ header {
         a {
           color: white;
           text-decoration: none;
+          font-size: 1.1rem;
         }
       }
     }

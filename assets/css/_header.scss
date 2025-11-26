@@ -1,3 +1,11 @@
+@mixin header-scrolled {
+  background-color: $primary-color;
+  nav ul li:last-child a {
+    background-color: white;
+    color: black;
+  }
+}
+
 header {
   position: fixed;
   top: 0;
@@ -24,11 +32,14 @@ header {
 
     // fixed-header の場合のみスクロールで背景色変更
     &.scrolled {
-      background-color: $primary-color;
-      nav ul li:last-child a {
-        background-color: white;
-        color: black;
-      }
+      @include header-scrolled;
+    }
+  }
+
+  @media (max-width: $bp-md) {
+    /* 小画面では透明ヘッダーを無効化して常に通常背景にする */
+    &.fixed-header {
+      @include header-scrolled;
     }
   }
 

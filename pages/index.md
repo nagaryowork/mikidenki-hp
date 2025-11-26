@@ -19,11 +19,24 @@ permalink: /
   </div>
 </div>
 <section class="index">
-  <h2>電気工事士を募集中！</h2>
-  <p>私たちと一緒に街のインフラを支える仲間を募集しています。</p>
-  <a href="{{ '/about/' | relative_url }}" class="btn">会社について</a>
-  <p>補足テキスト</p>
-  <a href="{{ '/work/' | relative_url }}" class="btn">例えば、こんな現場で作業しています！</a>
-  <p>補足テキスト</p>
-  <a href="{{ '/recruit/' | relative_url }}" class="btn">求人の応募、エントリーはこちら！</a>
+  <h2 class="sr-only">当社のご案内</h2>
+  <div class="index-sections">
+    <article class="index-card">
+      <h3>会社について</h3>
+      <p>創業以来、地域企業の設備を支えてきた実績があります。法人向けに安全・確実な施工を提供し、メンテナンスまで一貫して対応します。</p>
+      <a href="{{ '/about/' | relative_url }}" class="btn">会社について</a>
+    </article>
+
+    <article class="index-card">
+      <h3>実績・作業例</h3>
+      <p>オフィス・工場・商業施設など、企業向けの配線・改修・保守を多数手掛けています。現場の事例で、対応力と品質をご確認ください。</p>
+      <a href="{{ '/work/' | relative_url }}" class="btn">例えば、こんな現場で作業しています！</a>
+    </article>
+
+    <article class="index-card">
+      <h3>採用情報</h3>
+      <p>少人数体制のため一人ひとりの成長が事業に直結します。経験者は即戦力として、未経験者には丁寧な指導を行います。</p>
+      <a href="{{ '/recruit/' | relative_url }}" class="btn">求人の応募、エントリーはこちら！</a>
+    </article>
+  </div>
 </section>

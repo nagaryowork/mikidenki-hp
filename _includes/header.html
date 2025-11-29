@@ -1,7 +1,10 @@
 <header class="{% if page.url == '/' %}fixed-header{% endif %}">
   <h1>三木電気工事</h1>
   <!-- <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="会社ロゴ" /> -->
-  <nav>
+  <button class="menu-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="メニューを開く">
+    <span></span>
+  </button>
+  <nav id="site-nav">
     <ul>
       <li><a href="{{ '/' | relative_url }}">TOP</a></li>
       <li><a href="{{ '/about/' | relative_url }}">会社について</a></li>

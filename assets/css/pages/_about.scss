@@ -1,3 +1,96 @@
-.about {
-  
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+
+  // aboutページ固有の上書き
+  .page-header {
+    margin-bottom: 0;
+  }
+
+  .ceo-message {
+    margin-bottom: 6rem;
+
+    .ceo-text {
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: $text-color;
+        border-left: 5px solid $primary-color;
+        padding-left: 1rem;
+      }
+
+      p {
+        line-height: 1.8;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+      }
+
+      .ceo-img {
+        width: 100%;
+        max-width: 300px;
+        margin: 2rem auto 1rem;
+
+        @media (min-width: $bp-md) {
+          margin: 2rem 0 1rem auto;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          object-fit: cover;
+        }
+      }
+
+      .ceo-name {
+        text-align: right;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  .access-map {
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .company-img {
+      width: 70%;
+      max-width: 600px;
+      margin: 0 auto 2rem;
+
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 600px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .map-container {
+      width: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+      iframe {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
 }

@@ -24,7 +24,7 @@ permalink: /
     <article class="index-card">
       <h3>会社について</h3>
       <p>創業以来、地域企業の設備を支えてきた実績があります。法人向けに安全・確実な施工を提供し、メンテナンスまで一貫して対応します。</p>
-      <a href="{{ '/about/' | relative_url }}" class="btn">会社について</a>
+      <a href="{{ '/about/' | relative_url }}" class="btn">当社の所在地や代表者のあいさつはこちら！</a>
     </article>
 
     <article class="index-card">

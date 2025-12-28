@@ -20,5 +20,8 @@
     <script src="{{ '/assets/js/components.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/slider.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/header.js' | relative_url }}"></script>
+    {% if page.url contains '/recruit/' %}
+    <script src="{{ '/assets/js/recruit.js' | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>

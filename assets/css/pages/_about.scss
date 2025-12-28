@@ -11,44 +11,111 @@
   .ceo-message {
     margin-bottom: 6rem;
 
-    .ceo-text {
-      h3 {
-        font-size: 1.5rem;
-        margin-bottom: 1.5rem;
-        color: $text-color;
-        border-left: 5px solid $primary-color;
-        padding-left: 1rem;
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      color: $text-color;
+      border-left: 5px solid $primary-color;
+      padding-left: 1rem;
+    }
+
+    .ceo-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      @media (min-width: $bp-md) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
       }
 
-      p {
-        line-height: 1.8;
-        margin-bottom: 1rem;
-        font-size: 1rem;
+      .message-text {
+        flex: 1;
+
+        p {
+          line-height: 1.8;
+          margin-bottom: 1rem;
+          font-size: 1rem;
+        }
       }
 
-      .ceo-img {
+      .ceo-profile {
         width: 100%;
         max-width: 300px;
-        margin: 2rem auto 1rem;
+        margin: 0 auto;
 
         @media (min-width: $bp-md) {
-          margin: 2rem 0 1rem auto;
+          margin: 0;
+          flex-shrink: 0;
         }
 
-        img {
+        .ceo-img {
           width: 100%;
-          height: auto;
-          border-radius: 8px;
-          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-          object-fit: cover;
+          margin-bottom: 0.5rem;
+
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+          }
+        }
+
+        .ceo-name {
+          text-align: right;
+          font-weight: bold;
+          font-size: 1.2rem;
         }
       }
+    }
+  }
 
-      .ceo-name {
-        text-align: right;
+  .company-profile {
+    margin-bottom: 6rem;
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      color: $text-color;
+      border-left: 5px solid $primary-color;
+      padding-left: 1rem;
+    }
+
+    .profile-table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th, td {
+        padding: 1rem;
+        border-bottom: 1px solid #eee;
+        text-align: left;
+      }
+
+      th {
+        width: 30%;
+        background: #f9f9f9;
         font-weight: bold;
-        font-size: 1.2rem;
-        margin-top: 0.5rem;
+        color: $primary-color;
+        white-space: nowrap;
+      }
+
+      @media (max-width: $bp-sm) {
+        th, td {
+          display: block;
+          width: 100%;
+        }
+
+        th {
+          border-bottom: none;
+          padding-bottom: 0.5rem;
+        }
+
+        td {
+          padding-top: 0.5rem;
+        }
       }
     }
   }
@@ -56,8 +123,11 @@
   .access-map {
     h3 {
       font-size: 1.5rem;
-      margin-bottom: 1rem;
-      text-align: center;
+      margin-bottom: 1.5rem;
+      color: $text-color;
+      border-left: 5px solid $primary-color;
+      padding-left: 1rem;
+      text-align: left;
     }
 
     .company-img {
@@ -75,10 +145,36 @@
       }
     }
 
-    p {
-      text-align: center;
+    .access-info {
       margin-bottom: 2rem;
-      font-size: 1.1rem;
+
+      p {
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+      }
+
+      .address {
+        font-weight: bold;
+      }
+
+      .tel {
+        font-weight: bold;
+        font-size: 1.3rem;
+        color: $primary-color;
+
+        .time {
+          font-size: 0.9rem;
+          color: #666;
+          font-weight: normal;
+          margin-left: 1rem;
+          
+          @media (max-width: $bp-sm) {
+            display: block;
+            margin-left: 0;
+            margin-top: 0.2rem;
+          }
+        }
+      }
     }
 
     .map-container {

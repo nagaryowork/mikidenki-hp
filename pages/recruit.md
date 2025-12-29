@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 応募・エントリー
+description: 愛知県の三木電気工事では電気工事士（正社員）を募集中。未経験歓迎、経験者優遇。月給25万円以上、賞与年2回。手に職をつけたい方、安定して働きたい方をお待ちしています。
 permalink: /recruit/
 ---
 
@@ -9,8 +10,8 @@ permalink: /recruit/
     <h2>{{ page.title }}</h2>
     <p class="lead-text">
       三木電気工事では、共に働く仲間を募集しています。<br>
-      未経験からのチャレンジも歓迎します。確かな技術を身につけ、地域のインフラを支えましょう。<br>
-      頑張りを評価し、将来を見据えて働ける環境を整えています。
+      未経験からのチャレンジも歓迎します。<br>
+      確かな技術を身につけ、地域のインフラを支えましょう。
     </p>
   </div>
 
@@ -212,3 +213,45 @@ permalink: /recruit/
 <a href="#entry-form" class="floating-entry-btn">
   応募フォームへ進む
 </a>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "JobPosting",
+  "title": "電気工事士",
+  "description": "<p>工場、ビル等の電気配線作業をお任せします。</p><p><strong>【未経験の方へ】</strong><br>まずは先輩作業者から工具や材料の準備、作業手順の基本を指導します。<br>実作業においては、基本的な作業をしながら徐々に技能を身につけていきますのでご安心ください。</p><p>※高所作業、重量物の取り扱いがあります。</p>",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "三木電気工事株式会社",
+    "value": "recruit-001"
+  },
+  "datePosted": "2024-01-01",
+  "validThrough": "2025-12-31",
+  "employmentType": "FULL_TIME",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "三木電気工事株式会社",
+    "sameAs": "https://nagaryowork.github.io/mikidenki-hp/"
+  },
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "森4-1-18",
+      "addressLocality": "あま市",
+      "addressRegion": "愛知県",
+      "postalCode": "490-1107",
+      "addressCountry": "JP"
+    }
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "JPY",
+    "value": {
+      "@type": "QuantitativeValue",
+      "value": 250000,
+      "unitText": "MONTH"
+    }
+  }
+}
+</script>

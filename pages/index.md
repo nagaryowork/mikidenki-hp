@@ -1,6 +1,7 @@
 ---
 layout: default
 title: TOP
+description: 愛知県あま市を拠点に、工場やビルの電気設備工事、設計、施工を行う三木電気工事株式会社の公式サイトです。安全と信頼を第一に、地域のインフラを支えます。
 permalink: /
 ---
 
@@ -40,3 +41,35 @@ permalink: /
     </article>
   </div>
 </section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Electrician",
+  "name": "三木電気工事株式会社",
+  "image": "https://nagaryowork.github.io/mikidenki-hp/assets/img/top.jpg",
+  "@id": "https://nagaryowork.github.io/mikidenki-hp/",
+  "url": "https://nagaryowork.github.io/mikidenki-hp/",
+  "telephone": "052-442-7853",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "森4-1-18",
+    "addressLocality": "あま市",
+    "addressRegion": "愛知県",
+    "postalCode": "490-1107",
+    "addressCountry": "JP"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "17:00"
+  }
+}
+</script>

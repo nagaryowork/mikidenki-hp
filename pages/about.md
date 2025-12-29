@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 会社について
+description: 三木電気工事株式会社の会社概要、代表挨拶、アクセスマップをご紹介します。昭和57年設立、愛知県あま市を拠点に地域密着で電気工事を行っています。
 permalink: /about/
 ---
 
@@ -87,3 +88,17 @@ permalink: /about/
 
 
 </section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "三木電気工事株式会社",
+    "founder": "三木 昭男",
+    "foundingDate": "1982",
+    "url": "https://nagaryowork.github.io/mikidenki-hp/"
+  }
+}
+</script>

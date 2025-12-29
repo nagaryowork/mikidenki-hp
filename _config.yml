@@ -1,8 +1,12 @@
 # --------------------------------
 # サイト基本情報
 # --------------------------------
-title: 電気工事会社HP
-description: 電気工事士採用募集用サイト
+title: 三木電気工事株式会社
+description: 愛知県の三木電気工事株式会社の公式サイトです。電気設備工事、設計、施工を行っています。電気工事士（正社員）も募集中です。
+lang: ja
+image: /assets/img/top2.jpg
+twitter:
+  card: summary_large_image
 baseurl: "/mikidenki-hp" # サイトのサブパス（例: /blog）
 url: "https://nagaryowork.github.io" # サイトのベースURL
 

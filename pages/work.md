@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 現場・作業例
+description: 三木電気工事株式会社の施工実績をご紹介します。工場、オフィスビル、ホテルなどの新築工事や改修工事など、多岐にわたる電気設備工事の実績があります。
 permalink: /work/
 ---
 
@@ -79,3 +80,31 @@ permalink: /work/
     </article>
   </div>
 </section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "headline": "施工実績",
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "某ホテル新築工事"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "某電気機器メーカー工場新築工事"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "某オフィスビル新築工事"
+      }
+    ]
+  }
+}
+</script>

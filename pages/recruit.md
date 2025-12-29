@@ -35,7 +35,7 @@ permalink: /recruit/
         </tr>
         <tr>
           <th>雇用形態</th>
-          <td>正社員（雇用期間の定めなし）</td>
+          <td>正社員</td>
         </tr>
         <tr>
           <th>仕事内容</th>
@@ -61,17 +61,12 @@ permalink: /recruit/
               </div>
             </div>
             <div class="requirements-row">
-              <span class="req-category required">必須</span>
-              <div class="tags-container">
-                <span class="tag">普通免許(AT可)</span>
-              </div>
-            </div>
-            <div class="requirements-row">
               <span class="req-category welcome">歓迎</span>
               <div class="tags-container">
                 <span class="tag">経験者</span>
                 <span class="tag">第二種電気工事士</span>
                 <span class="tag">第一種電気工事士</span>
+                <span class="tag">普通自動車免許(AT可)</span>
               </div>
             </div>
           </td>
@@ -80,7 +75,7 @@ permalink: /recruit/
           <th>給与</th>
           <td>
             <p>
-              <strong>月給 230,000円以上</strong><br>
+              <strong>月給 250,000円以上</strong><br>
               ※試用期間3ヶ月間も同条件<br>
               ※昇給随時、賞与年2回（6月・12月）
             </p>
@@ -194,21 +189,21 @@ permalink: /recruit/
       ※Googleフォームを使用しており、安全に送信されます。
     </p>
 
+    <div class="contact-alt" id="contact-info">
+      <p>お電話でのご応募・お問い合わせも受け付けております。</p>
+      <p class="tel-number">TEL: 052-442-7853</p>
+      <p class="tel-time">（受付時間：平日 9:00～17:00）</p>
+    </div>
+
     <!-- Google Forms 埋め込みエリア -->
     <div class="google-form-container">
-      <!-- 
+      <!--
         【Googleフォームの埋め込み手順】
         1. Googleフォームを作成する
         2. 「送信」ボタンをクリック -> 「< >」アイコン（埋め込み）を選択
         3. 表示されたHTMLコードをコピーして、以下のiframe部分と差し替えてください
       -->
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfD_placeholder/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
-    </div>
-
-    <div class="contact-alt" id="contact-info">
-      <p>お電話でのご応募・お問い合わせも受け付けております。</p>
-      <p class="tel-number">TEL: 052-442-7853</p>
-      <p class="tel-time">（受付時間：平日 9:00～17:00）</p>
     </div>
   </div>
 </section>

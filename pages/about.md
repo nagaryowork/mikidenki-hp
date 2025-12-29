@@ -50,7 +50,7 @@ permalink: /about/
         </tr>
         <tr>
           <th>従業員数</th>
-          <td>3名</td>
+          <td>4名</td>
         </tr>
         <tr>
           <th>事業内容</th>

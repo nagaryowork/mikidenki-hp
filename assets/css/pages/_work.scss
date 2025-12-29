@@ -61,9 +61,10 @@
       }
 
       .work-meta {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem 1.5rem;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: baseline;
+        gap: 0.5rem 1rem;
         margin-bottom: 1rem;
         font-size: 0.9rem;
         color: #555;
@@ -74,6 +75,7 @@
         dt {
           font-weight: bold;
           color: $primary-color;
+          white-space: nowrap;
           &::after {
             content: ":";
             margin-left: 0.2rem;

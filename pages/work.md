@@ -9,7 +9,8 @@ permalink: /work/
     <h2>{{ page.title }}</h2>
     <p class="lead-text">
       当社が手掛けた施工実績の一部をご紹介します。<br>
-      ※守秘義務の観点から、具体的な企業名や建物名は伏せて掲載しております。
+      ※守秘義務の観点から、具体的な企業名や建物名は伏せて掲載しております。<br>
+      ※掲載画像はイメージです（守秘義務のためAI生成画像を使用しています）。
     </p>
   </div>
 
@@ -17,20 +18,20 @@ permalink: /work/
     <!-- 事例1 -->
     <article class="work-item">
       <div class="work-img">
-        <img src="{{ '/assets/img/work1.jpg' | relative_url }}" alt="受変電設備改修工事" onerror="this.src='https://placehold.jp/400x300.png?text=Work+Image+1'">
+        <img src="{{ '/assets/img/work1.png' | relative_url }}" alt="ホテル新築工事" onerror="this.src='https://placehold.jp/400x300.png?text=Work+Image+1'">
       </div>
       <div class="work-content">
-        <h3>某オフィスビル 受変電設備改修工事</h3>
+        <h3>某高級ホテル<br>新築工事</h3>
         <dl class="work-meta">
           <dt>場所</dt>
           <dd>愛知県名古屋市</dd>
           <dt>作業内容</dt>
-          <dd>キュービクル更新 / 幹線敷設替</dd>
+          <dd>新築電気設備工事一式</dd>
         </dl>
         <p class="work-desc">
-          老朽化した受変電設備（キュービクル）の更新工事を行いました。
-          テナント様への影響を最小限に抑えるため、休日の計画停電に合わせて安全かつ迅速に施工を実施。
-          将来の電力需要増加を見据えた幹線ケーブルのサイズアップも同時に行っています。
+          名古屋市内のホテル新築工事における電気設備工事を担当しました。
+          客室や共用部の照明・コンセント設備から、受変電設備の設置まで、
+          大規模な宿泊施設に求められる高品質な施工を行いました。
         </p>
       </div>
     </article>
@@ -38,20 +39,20 @@ permalink: /work/
     <!-- 事例2 -->
     <article class="work-item">
       <div class="work-img">
-        <img src="{{ '/assets/img/work2.jpg' | relative_url }}" alt="工場電源工事" onerror="this.src='https://placehold.jp/400x300.png?text=Work+Image+2'">
+        <img src="{{ '/assets/img/work2.png' | relative_url }}" alt="工場新築工事" onerror="this.src='https://placehold.jp/400x300.png?text=Work+Image+2'">
       </div>
       <div class="work-content">
-        <h3>食品加工工場 生産ライン増設工事</h3>
+        <h3>某電気機器メーカー<br>工場新築工事</h3>
         <dl class="work-meta">
           <dt>場所</dt>
-          <dd>愛知県一宮市</dd>
+          <dd>愛知県瀬戸市</dd>
           <dt>作業内容</dt>
-          <dd>動力電源供給 / 制御盤設置</dd>
+          <dd>工場新築電気工事 / 動力設備工事</dd>
         </dl>
         <p class="work-desc">
-          新規生産ラインの導入に伴う、動力電源の引き込みおよび制御盤の設置・結線作業を担当しました。
-          衛生管理が厳しいエリアでの作業となるため、防塵対策や異物混入防止を徹底し、
-          工場の稼働スケジュールに合わせた工程管理を行いました。
+          メーカー様の工場新築に伴う電気工事を行いました。
+          生産ラインへの安定した動力供給や、工場特有の照明計画など、
+          お客様の生産活動を支えるための確実な施工を実施しました。
         </p>
       </div>
     </article>
@@ -59,20 +60,20 @@ permalink: /work/
     <!-- 事例3 -->
     <article class="work-item">
       <div class="work-img">
-        <img src="{{ '/assets/img/work3.jpg' | relative_url }}" alt="LED照明導入工事" onerror="this.src='https://placehold.jp/400x300.png?text=Work+Image+3'">
+        <img src="{{ '/assets/img/work3.png' | relative_url }}" alt="オフィスビル新築工事" onerror="this.src='https://placehold.jp/400x300.png?text=Work+Image+3'">
       </div>
       <div class="work-content">
-        <h3>大型商業施設 LED照明導入工事</h3>
+        <h3>某クレーン会社<br>オフィスビル新築工事</h3>
         <dl class="work-meta">
           <dt>場所</dt>
-          <dd>愛知県内</dd>
+          <dd>愛知県名古屋市</dd>
           <dt>作業内容</dt>
-          <dd>照明器具交換 / 省エネ提案</dd>
+          <dd>新築電気設備工事 / OAフロア配線</dd>
         </dl>
         <p class="work-desc">
-          施設内の共用通路および駐車場の照明をLEDへ更新しました。
-          事前の照度計算に基づき、明るさを確保しつつ消費電力を大幅に削減するプランを提案。
-          お客様の来場がない夜間帯に作業を集中的に行い、営業への支障なく完工しました。
+          オフィスビルの新築工事にて、電気設備全般を担当しました。
+          OAフロア内の配線や、セキュリティ設備の設置など、
+          現代のオフィス環境に適した機能的で快適な空間づくりに貢献しました。
         </p>
       </div>
     </article>

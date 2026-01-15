@@ -73,7 +73,7 @@ permalink: /about/
         <span class="time">（受付時間：平日 9:00～17:00）</span>
       </p>
     </div>
-    <div class="map-container">
+    <div class="map-container" id="google-map">
       <iframe
         src="https://maps.google.com/maps?q=〒490-1107+愛知県あま市森４丁目１−１８&output=embed"
         width="100%"
@@ -98,7 +98,7 @@ permalink: /about/
     "name": "三木電気工事株式会社",
     "founder": "三木 昭男",
     "foundingDate": "1982",
-    "url": "https://nagaryowork.github.io/mikidenki-hp/"
+    "url": "https://miki-denki.jp/"
   }
 }
 </script>

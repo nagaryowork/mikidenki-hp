@@ -105,6 +105,7 @@ permalink: /recruit/
           <th>勤務拠点</th>
           <td>
             <p>〒490-1107 愛知県あま市森4-1-18</p>
+            <p><a href="{{ '/about/#google-map' | relative_url }}" target="_blank" rel="noopener noreferrer">Googleマップへのリンクはこちら</a></p>
             <p><span class="access-info">★車・バイク・自転車通勤OK<br>（名古屋鉄道「七宝駅」車2分）</span></p>
             <p>※現場は依頼案件により異なります。</p>
           </td>
@@ -121,7 +122,7 @@ permalink: /recruit/
           <th>休日・休暇</th>
           <td>
             <ul class="simple-list">
-              <li>シフト制（週1～2回）</li>
+              <li>シフト制<br>（週1～2回）</li>
               <li>有給休暇</li>
               <li>夏季休暇</li>
               <li>年末年始休暇</li>
@@ -204,7 +205,7 @@ permalink: /recruit/
         2. 「送信」ボタンをクリック -> 「< >」アイコン（埋め込み）を選択
         3. 表示されたHTMLコードをコピーして、以下のiframe部分と差し替えてください
       -->
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfv4RD94N8KLQAASTo-RxQRIeFAl7WP4rggPOcT2eP4UTOMEw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdTw0lxvSOBSGaxQsCFX7SYOnyUz66jkoZqLMb99VQEQX8kHw/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
     </div>
   </div>
 </section>
@@ -231,7 +232,7 @@ permalink: /recruit/
   "hiringOrganization": {
     "@type": "Organization",
     "name": "三木電気工事株式会社",
-    "sameAs": "https://nagaryowork.github.io/mikidenki-hp/"
+    "sameAs": "https://miki-denki.jp/"
   },
   "jobLocation": {
     "@type": "Place",

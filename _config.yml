@@ -7,8 +7,8 @@ lang: ja
 image: /assets/img/top2.jpg
 twitter:
   card: summary_large_image
-baseurl: "/mikidenki-hp" # サイトのサブパス（例: /blog）
-url: "https://nagaryowork.github.io" # サイトのベースURL
+baseurl: "" # サイトのサブパス（独自ドメインのため空欄）
+url: "https://miki-denki.jp" # サイトのベースURL
 
 # --------------------------------
 # ディレクトリ設定

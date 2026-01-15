@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const updateToPhoneMode = () => {
       entryBtn.classList.add('is-phone-mode');
       entryBtn.innerHTML = `
-        <img src="/mikidenki-hp/assets/img/phone.svg" alt="" width="20" height="20" style="margin-right: 8px; filter: brightness(0) invert(1);">
+        <img src="/assets/img/phone.svg" alt="" width="20" height="20" style="margin-right: 8px; filter: brightness(0) invert(1);">
         お電話でのご応募も可能です！
       `;
       entryBtn.href = '#contact-info';

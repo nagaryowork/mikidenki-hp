@@ -188,5 +188,9 @@
         display: block;
       }
     }
+
+    #google-map {
+      scroll-margin-top: calc(#{$header-height} + 2rem);
+    }
   }
 }

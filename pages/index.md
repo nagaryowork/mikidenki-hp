@@ -47,9 +47,9 @@ permalink: /
   "@context": "https://schema.org",
   "@type": "Electrician",
   "name": "三木電気工事株式会社",
-  "image": "https://nagaryowork.github.io/mikidenki-hp/assets/img/top.jpg",
-  "@id": "https://nagaryowork.github.io/mikidenki-hp/",
-  "url": "https://nagaryowork.github.io/mikidenki-hp/",
+  "image": "https://miki-denki.jp/assets/img/top.jpg",
+  "@id": "https://miki-denki.jp/",
+  "url": "https://miki-denki.jp/",
   "telephone": "052-442-7853",
   "address": {
     "@type": "PostalAddress",
